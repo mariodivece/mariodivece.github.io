@@ -3,6 +3,7 @@ layout: post
 title: "A proper Yocto image for the Raspberry Pi"
 date: 2017-12-23
 nocomments: false
+area: "blog"
 ---
 
 # Building a Yocto (Rocko) image for the Raspberry Pi
