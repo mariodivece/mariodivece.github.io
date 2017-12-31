@@ -3,6 +3,7 @@ layout: post
 title: "Multiple IPSec Policy Routes in Windows Azure"
 date: 2017-01-03
 nocomments: false
+area: "blog"
 ---
 
 # Multiple Sophos (IKEv1) to Azure IPsec Tunnels
