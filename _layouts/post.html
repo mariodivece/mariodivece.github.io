@@ -7,3 +7,9 @@ layout: default
 <div class="post">
   {{ content }}
 </div>
+
+{% if page.nocomments %}
+<div>Comments have been disabled</div>
+{% else %}
+{% include disqus.html %}
+{% endif %}
