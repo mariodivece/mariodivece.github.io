@@ -3,6 +3,7 @@ layout: post
 title: "Modern IT Infrastructure: A Practical Guide"
 date: 2017-03-11
 nocomments: false
+area: "blog"
 ---
 
 # Modern IT Infrastructure: A Practical Guide
