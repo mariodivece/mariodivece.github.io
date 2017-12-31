@@ -3,6 +3,7 @@ layout: post
 title: "Configure Sophos UTM NICs via the CLI"
 date: 2017-03-07
 nocomments: false
+area: "blog"
 ---
 
 # How to reconfigure Sophos UTM network interfaces via CLI
