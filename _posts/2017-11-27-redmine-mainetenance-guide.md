@@ -3,6 +3,7 @@ layout: post
 title: "A Small Redmine Maintenance Guide"
 date: 2017-11-27
 nocomments: false
+area: "blog"
 ---
 
 # A Small Guide to Redmine Maintenance
