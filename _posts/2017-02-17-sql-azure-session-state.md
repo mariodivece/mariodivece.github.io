@@ -3,6 +3,7 @@ layout: post
 title: "ASP.NET Session State with SQL Azure"
 date: 2017-02-17
 nocomments: false
+area: "blog"
 ---
 
 # Uptdated guide to SQL Azure Session State for ASP.NET Web Applications
