@@ -3,6 +3,7 @@ layout: post
 title: "Windows Server 2016 Anonymous File and Printer Sharing"
 date: 2017-01-24
 nocomments: false
+area: "blog"
 ---
 
 # Windows Server 2016 Anonymous File and Printer Sharing
