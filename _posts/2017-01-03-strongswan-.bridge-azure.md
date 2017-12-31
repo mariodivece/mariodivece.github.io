@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "2017-01-03"
-date: Multiple IPSec Policy Routes in Windows Azure
+title: "Multiple IPSec Policy Routes in Windows Azure"
+date: 2017-01-03
 nocomments: false
 ---
 
