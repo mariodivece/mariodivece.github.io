@@ -2,7 +2,7 @@
 name: Mario Di Vece - Blog
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: A blog about technology, coding and other thoughts
+description: "A blog about technology, coding and other thoughts"
 
 # Your name, as you want it to appear underneath each post and in the footer
 author: Mario Di Vece
@@ -19,18 +19,6 @@ permalink: pretty
 
 # How many articles do you wish to appear on the front page:
 paginate: 3
-
-markdown: kramdown
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
 
 # Let's have the blog urls include the /blog part of the path
 permalink: /blog/:year/:month/:day/:title
