@@ -4,6 +4,8 @@ title: "Working with the fantastic Trinket M0"
 date: 2017-12-21
 nocomments: false
 area: "blog"
+description: Using the Trinket M0 by AdaFruit
+tags: Embedded Electronics
 ---
 
 # Working with the fantastic Trinket M0

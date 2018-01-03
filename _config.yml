@@ -23,5 +23,8 @@ paginate: 3
 # Outputting engine (kramdown is GitHub Pages flavor of Markdown)
 markdown: kramdown
 
+# Use the Rouge highlighter for code segments
+highlighter: rouge
+
 # Let's have the blog urls include the /blog part of the path
 permalink: /blog/:year/:month/:day/:title

@@ -4,6 +4,8 @@ title: "Multiple IPSec Policy Routes in Windows Azure"
 date: 2017-01-03
 nocomments: false
 area: "blog"
+description: A guide on how to setup multiple site-to-site IPsec connections between Sophos UTMs and Windows Azure
+tags: Infrastructure IPsec Linux
 ---
 
 # Multiple Sophos (IKEv1) to Azure IPsec Tunnels

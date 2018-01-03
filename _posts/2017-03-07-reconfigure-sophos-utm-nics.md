@@ -4,6 +4,8 @@ title: "Configure Sophos UTM NICs via the CLI"
 date: 2017-03-07
 nocomments: false
 area: "blog"
+description: Sometimes you restore a backup or accidentally disable a NIC in your firewall deployment
+tags: Sophos UTM Infrastructure Linux
 ---
 
 # How to reconfigure Sophos UTM network interfaces via CLI

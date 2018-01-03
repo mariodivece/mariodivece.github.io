@@ -4,6 +4,8 @@ title: "Modern IT Infrastructure: A Practical Guide"
 date: 2017-03-11
 nocomments: false
 area: "blog"
+description: My small guide to modern IT infrastructure
+tags: Infrastructure
 ---
 
 # Modern IT Infrastructure: A Practical Guide

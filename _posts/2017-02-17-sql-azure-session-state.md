@@ -4,6 +4,8 @@ title: "ASP.NET Session State with SQL Azure"
 date: 2017-02-17
 nocomments: false
 area: "blog"
+description: Uptdated guide to SQL Azure Session State for ASP.NET Web Applications
+tags: C# Programming Azure
 ---
 
 # Uptdated guide to SQL Azure Session State for ASP.NET Web Applications

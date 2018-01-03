@@ -4,6 +4,8 @@ title: "A proper Yocto image for the Raspberry Pi"
 date: 2017-12-23
 nocomments: false
 area: "blog"
+description: The objective today is to build a Yocto image for the Raspberry Pi
+tags: Embedded Electronics Yocto Mono .Net
 ---
 
 # Building a Yocto (Rocko) image for the Raspberry Pi

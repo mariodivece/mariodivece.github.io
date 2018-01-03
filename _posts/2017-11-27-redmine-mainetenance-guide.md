@@ -4,6 +4,8 @@ title: "A Small Redmine Maintenance Guide"
 date: 2017-11-27
 nocomments: false
 area: "blog"
+description: This guide covers basic administration tasks for a Windows Bitnami Redmine Installation and Upgrade steps.
+tags: Redmine WebApps Bitnami
 ---
 
 # A Small Guide to Redmine Maintenance
