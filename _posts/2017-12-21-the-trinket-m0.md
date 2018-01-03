@@ -10,7 +10,7 @@ tags: Embedded Electronics
 
 # Working with the fantastic Trinket M0
 
-<img class="img-fluid" src="https://raw.githubusercontent.com/mariodivece/blog/master/images/trinket-m0.jpeg" />
+<img class="img-fluid" src="/img/trinket-m0.jpeg" />
 
 I fixed the default code for ```main.py``` to make it more readable
 ```python
