@@ -26,7 +26,7 @@ Like we stated before, *IP* defines a standard protocol for _network_ communicat
 
 What is the difference between a _network_ protocol like *IP* and a _transport_ protocol like *TCP*? The transmission blocks of a **network** protocol contain data that specify source and destination computers in a network **plus** more data **containing** the blocks of a _transport_ protocol. The physical layer carries a stream of **bits**, making up **frames** at the Data Link layer. *Frames* contain **network packets** at the *network* level,  which in turn contain **transport** level protocol data called *Segments*. Here is a diagram showing the anatomy of *Frames*, *Packets* and *Segments*. These transmission blocks are called *PDU*s or *Protocol Data Units*.
 
-<img src="https://github.com/mariodivece/blog/blob/master/images/it-protocol-transmission-units.png?raw=true" />
+<img class="img-fluid" src="https://github.com/mariodivece/blog/blob/master/images/it-protocol-transmission-units.png?raw=true" />
 
 But the OSI model is not the only layer model out there. There are multiple models that take extremely similar approaches with slightly different names. While the OSI model defines a 7-layer model to connect systems. The IP specification defines only 4 of them. Here is a table with a rough comparison. Go to [RFC-1122](https://tools.ietf.org/html/rfc1122) for additional reference.
 

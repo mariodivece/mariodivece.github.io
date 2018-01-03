@@ -17,22 +17,22 @@ I wanted to experiment a bit with anonymous File and PRinter Sharing in Windows 
  - Network access: Let Everyone permissions apply to anonymous users: `Enabled`
  - Network access: Do not allow anonymous enumeration of SAM accounts and shares: `Disabled`
  
-<img src="https://raw.githubusercontent.com/mariodivece/blog/master/images/local-segurity-policy.png" />
+<img class="img-fluid" src="https://raw.githubusercontent.com/mariodivece/blog/master/images/local-segurity-policy.png" />
 
 ## Sharing a Folder
 
 Locate the folder you want to share > Right Click on it > `Properties . . .`
  - `Sharing` tab: `Advanced Sharing` > `Permissions` > `Add . . .` > Add `Everyone` > Check `Read` and `Change`
-<img src="https://raw.githubusercontent.com/mariodivece/blog/master/images/file-sharing.png" />
+<img class="img-fluid" src="https://raw.githubusercontent.com/mariodivece/blog/master/images/file-sharing.png" />
  - `Security` tab: `Edit . . .` > `Add . . .` > Add `Everyone` > Check `Full Control` (or approriate file permissions)
-<img src="https://raw.githubusercontent.com/mariodivece/blog/master/images/file-security.png" />
+<img class="img-fluid" src="https://raw.githubusercontent.com/mariodivece/blog/master/images/file-security.png" />
 
 ## Sharing a Printer
 `Start` > `Devices and Printers` > Locate the printer to share and right-click on it > `Printer properties`
   - Sharing tab: `Share this printer`: ticked, `Render print jobs on client computers`: ticked
- <img src="https://raw.githubusercontent.com/mariodivece/blog/master/images/printer-sharing.png" />
+ <img class="img-fluid" src="https://raw.githubusercontent.com/mariodivece/blog/master/images/printer-sharing.png" />
   - Security tab: `Add . . .` > Add `Everyone` > Check all boxes
-<img src="https://raw.githubusercontent.com/mariodivece/blog/master/images/printer-security.png" />
+<img class="img-fluid" src="https://raw.githubusercontent.com/mariodivece/blog/master/images/printer-security.png" />
 
 ## References
  - http://serverfault.com/questions/51635/how-can-an-unauthenticated-user-access-a-windows-share
