@@ -19,11 +19,3 @@ layout: default
 {% else %}
 {% include disqus.html %}
 {% endif %}
-<script>
-    $(function () {
-        $('div.post table').each(function (index, tableEl) {
-            $(tableEl).wrap("<div class='table-responsive'></div>");
-            $(tableEl).addClass('table table-striped table-hover table-sm');
-        });
-    });
-</script>
