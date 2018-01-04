@@ -1,13 +1,9 @@
-div.highlight {
-    background: #f6f8fa;
-}
-
-div.highlight pre.highlight code {
-    padding: 10px;
+div.highlight pre.highlight {
+    margin: 10px;
 }
 
 .highlight {
-
+    background: #f6f8fa;
 }
     .highlight .c {
         color: #999988;
