@@ -65,9 +65,9 @@ apt-get install strongswan
  ```
 - Hit Ctrl+X and then Y when prompted to save to commit the changes.
 - Now let's confgure our StrongSwan bridge. Go ahead and type in: `nano /etc/ipsec.conf`, delete eveything in there and make the replacements as shown in the example below. I am setting up 2 branch office site connections below, but you can set up 1 or as many as you want:
+
  ```bash
 # ipsec.conf - strongSwan IPsec configuration file
-
 config setup
 
 # Connections
@@ -98,8 +98,8 @@ conn router_site-02
         right="site-02-public-ip"
         rightid="site-02-public-ip"
         rightsubnet="10.4.0.0/20"
+```
 
- ```
 - Again, hit Ctrl+X and then Y when prompted to save to commit the changes.
 - Now, restart the IPsec service `ipsec restart`. To see the status of the IPsec tunnels, enter `ipsec statusall`. And to see detailed logs of the connections try: `tail /var/log/syslog`.
 
