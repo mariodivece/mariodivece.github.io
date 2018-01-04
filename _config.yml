@@ -20,5 +20,11 @@ permalink: pretty
 # How many articles do you wish to appear on the front page:
 paginate: 3
 
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+
 # Let's have the blog urls include the /blog part of the path
 permalink: /blog/:year/:month/:day/:title
