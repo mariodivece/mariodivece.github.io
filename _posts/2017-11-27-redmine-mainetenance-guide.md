@@ -15,6 +15,7 @@ This guide covers basic administration tasks for a Windows Bitnami Redmine Insta
 ## 1. Stop Services
  - Go to: ```c:\bitnami\redmine``` and run the ```manager-windows``` application
  - Stop all Services except for ```MySQL```
+ - Under Computer > Properties Advanced System Settings > Environment Variables > System Variables: `SSL_CERT_FILE` set it to a valid `cacert.pem`. You can get one here: http://curl.haxx.se/ca/cacert.pem
 
 ## 2. Backup your Database
  - Verify that a FULL database backup is available in a remote server. See section 11.2 for more info.
