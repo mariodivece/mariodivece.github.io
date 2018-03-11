@@ -90,4 +90,22 @@ You can test your IR LED is correctly sending IR signals using the ```irsend``` 
 
 http://www.instructables.com/id/How-To-Useemulate-remotes-with-Arduino-and-Raspber/
 
+## Using `lirc` from your own programs
+
+As stated before the IR signals are written and decoded to and from a socket. So all you need to do is connect to that Unix socket and normally read and write signals.
+
+A `c#` example of how to read signals is available here:
+https://github.com/shawty/raspberrypi-csharp-lirc
+Basically, all you need to do is parse the incoming socket data as ACII as follows:
+```
+<code> <repeat count> <button name> <remote control name>
+```
+
+Example:
+```
+0000000000f40bf0 00 KEY_UP ANIMAX
+```
+
+In any case, you can always get to the documentation of the lircd socket here:
+http://www.lirc.org/html/lircd.html
 
