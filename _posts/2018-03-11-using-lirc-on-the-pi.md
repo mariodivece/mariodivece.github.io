@@ -25,8 +25,8 @@ sudo apt-get install lirc
 
 ### 2. Load the module at boot time
 
-Pick an input and an output pin for the LIRC module to use. Refer to the Pins here. The Name column has the pin number the module arguments refer to.
-In my case I have chosen GPIO.22 as output and GPIO.23 as input; see the file contents below.
+Pick an input and an output pin for the LIRC module to use. The pin number is the [Broadcom BCM pin number](https://github.com/unosquare/raspberryio#using-the-gpio-pins).
+In my case I have chosen 22 as output and 23 as input; see the file contents below.
 
 Edit the Modules File:
 ```sudo nano /etc/modules```
