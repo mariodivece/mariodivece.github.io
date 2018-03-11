@@ -109,3 +109,5 @@ Example:
 In any case, you can always get to the documentation of the lircd socket here:
 http://www.lirc.org/html/lircd.html
 
+This Gist also looks like a pretty good setup guide
+https://gist.github.com/prasanthj/c15a5298eb682bde34961c322c95378b
