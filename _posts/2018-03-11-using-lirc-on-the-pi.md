@@ -12,6 +12,12 @@ tags: Embedded Electronics
 
 I found a few guides on how to use LIRC (a mature library to read and write IR signals) and they seem to be a little dated. I am thankful for those guides I found but I just needed to provide the necessary updates in case anyone runs into the same issues I had.
 
+The really cool thing about LIRC is that once the `lirc` module is loaded, the `lircd` daemon runs and provides a way to read decoded infrared signals on a Unix Socket! (`/var/run/lirc/lircd`). In this way you can just read and write that socket in your custom programs as if it were a network stream.
+
+## Setup Guide
+
+You will need to correctly install, configure, enable and run `lirc`. These steps will help you do that.
+
 ### 1. Install LIRC
 ```bash
 sudo apt-get install lirc
@@ -56,3 +62,32 @@ find the line where `dtoverlay=lirc` was commented out and change it so it looks
 ```
 dtoverlay=lirc-rpi,gpio_in_pin=23,gpio_out_pin=22,gpio_in_pull=up
 ```
+
+## Usage Guide
+
+### Starting, Stopping and Restarting the Service
+
+Once you ar all set, you can start or stop the daemon that exposes the scoket very easily:
+
+```bash
+sudo /etc/init.d/lircd stop
+sudo /etc/init.d/lircd start
+sudo /etc/init.d/lircd restart
+```
+
+### Testing IR Input
+
+You can test your receiver by first stopping the `lircd` daemon and then running lirc's `mode2` utility which is simply used to dump lirc's driver kernel messages to the console.
+
+```bash
+sudo /etc/init.d/lircd stop
+sudo mode2 -d /dev/lirc0
+```
+
+### Testing IR Output
+
+You can test your IR LED is correctly sending IR signals using the ```irsend``` utility. Check out the guide on how to do this in the following link. This requires you to record and assign certain IR sequences and save them to your configuration file.
+
+http://www.instructables.com/id/How-To-Useemulate-remotes-with-Arduino-and-Raspber/
+
+
