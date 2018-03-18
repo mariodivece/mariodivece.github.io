@@ -1,11 +1,107 @@
 ---
 layout: default
-title: Mario Di Vece's Blog
+title: Geek Notes
 area: "blog"
 ---
-<h1>{{ page.title }}</h1>
-<ul class="posts">
-    {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>{{ page.title }}</h1>
+        <img src="/img/geeknotes-01.jpg" class="img-fluid rounded float-left" style="width:100%;" alt="Geek Notes" />
+        <p>
+            Here's where I share some of my notes with everyone else. I hope someone finds my notes useful.
+        </p>
+        <hr />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+
+        <!-- Blog posts -->
+        {% for post in site.posts %}
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <a href="{{ post.url }}" class="float-right btn btn-success btn-sm">Read More <i class="fa fa-arrow-circle-right"></i></a>
+                        <h2 class="card-title">{{ post.title }}</h2>
+                        <span class="text-muted float-left">Posted on {{ post.date | date_to_string }}</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">{{ post.description }}</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="col-md-4">
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <a target="_blank" href="https://github.com/unosquare/ffmediaelement" class="float-right btn btn-warning btn-sm">GitHub <i class="fa fa-github"></i></a>
+                <h2 class="card-title">FFME</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    FFME is a close (and I'd like to think better) drop-in replacement for Microsoft's WPF MediaElement Control.
+                    While the standard MediaElement uses DirectX (DirectShow) for media playback, FFME uses FFmpeg to read
+                    and decode audio and video.
+                </p>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <a target="_blank" href="https://github.com/unosquare/embedio" class="float-right btn btn-warning btn-sm">GitHub <i class="fa fa-github"></i></a>
+                <h2 class="card-title">EmbedIO</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    A tiny, cross-platform, module based, MIT-licensed web server for .NET Framework and .NET Core.
+                </p>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <a target="_blank" href="https://github.com/unosquare/raspberryio" class="float-right btn btn-warning btn-sm">GitHub <i class="fa fa-github"></i></a>
+                <h2 class="card-title">RaspberryIO</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    The Raspberry Pi's IO Functionality in an easy-to-use API for .NET (Mono/.NET Core). Our mission is to make .NET a first-class
+                    citizen in the Python-centric community of Raspberry Pi developers.
+                </p>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <a target="_blank" href="https://github.com/unosquare/swan" class="float-right btn btn-warning btn-sm">GitHub <i class="fa fa-github"></i></a>
+                <h2 class="card-title">SWAN</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    SWAN stands for Stuff We All Need. It is a collection of classes and extension methods that we (and other good developers)
+                    have written and evolved over the years.
+                </p>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <a target="_blank" href="https://github.com/unosquare/ledemotion" class="float-right btn btn-warning btn-sm">GitHub <i class="fa fa-github"></i></a>
+                <h2 class="card-title">LedEmotion</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">
+                    A very cool, Web-based RGB LED strip controller for the Raspberry Pi
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+

@@ -7,8 +7,13 @@ description: "A blog about technology, coding and other thoughts"
 # Your name, as you want it to appear underneath each post and in the footer
 author: Mario Di Vece
 
+exclude: [.vs,.git]
+
 # Your email if you want it to be linked on the contact page
 # author_email: you@example.com
+
+plugins:
+  - jekyll-feed
 
 # The directory for category index pages. Change it to something else if
 # for example you want links like /categories/category1 instead of /category1
@@ -18,7 +23,7 @@ author: Mario Di Vece
 permalink: pretty
 
 # How many articles do you wish to appear on the front page:
-paginate: 3
+paginate: 5
 
 markdown: kramdown
 highlighter: rouge

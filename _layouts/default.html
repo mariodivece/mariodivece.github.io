@@ -2,12 +2,14 @@
 <html>
 <head>
     {% include analytics.html %}
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - Mario Di Vece</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}" />
+    {% feed_meta %}
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
     {% include header.html %}
