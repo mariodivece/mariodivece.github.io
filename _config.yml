@@ -23,7 +23,7 @@ plugins:
 permalink: pretty
 
 # How many articles do you wish to appear on the front page:
-paginate: 5
+# paginate: 5
 
 markdown: kramdown
 highlighter: rouge
