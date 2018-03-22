@@ -4,7 +4,11 @@ layout: default
 
 <div class="row">
     <div class="col-md-12 text-right">
-        <span class="badge badge-info">Blog entry posted on {{ page.date | date_to_string }}</span>
+        <span class="badge badge-warning">Blog entry posted on {{ page.date | date_to_string }} by Mario Di Vece</span>
+        <br />
+        {% for tag in page.tags %}
+        <span class="badge badge-success">{{ tag }}</span>
+        {% endfor %}
     </div>
 </div>
 <div class="row">
