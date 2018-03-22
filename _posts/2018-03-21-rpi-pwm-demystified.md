@@ -1,6 +1,21 @@
+---
+layout: post
+title: "Raspberry Pi's PWM Demystified"
+date: 2018-03-21
+nocomments: false
+area: "blog"
+description: In this article, I cover the practical use of a 2-variable equation solver to find optimal parameters for the Raspberry Pi's native PWM driver which depends on on a clock divider and a range register. This has been the source of countless discussions in online forums and this article aims to clear some of the confusion caused by both, lack of information and the complexity of the problem.
+tags: Embedded Electronics, Raspberry Pi, PWM, Math
+---
+
 # Raspberry Pi's PWM Demystified
 
-Hello!
+In this article, I cover the practical use of a 2-variable equation solver to find optimal parameters for the Raspberry Pi's native PWM driver which depends on on a clock divider and a range register. This has been the source of countless discussions in online forums and this article aims to clear some of the confusion caused by both, lack of information and the complexity of the problem.
+
+## The Problem
+
+The Raspberry Pi has a base clock for its 2-channel PWM controller running at 19.2 MHz. The Pi alows us to configure 2 parameters: a Clock Divider which goes from 2 to 4096, and a Range whcih goes from 2 to a 32-bit unsigned integer max value (4,294,967,295). 
+
 
 | Frequency (Hz) | Period (µSecs) | Max Duty Cycle (percent) | Max Pulse Width (µSecs) | PWM Divider | PWM Range |
 | ---: | ---: | ---: | ---: | ---: | ---: |
