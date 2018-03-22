@@ -7,10 +7,11 @@ area: "blog"
 <div class="row">
     <div class="col-md-12">
         <h1>{{ page.title }}</h1>
-        <img src="/img/geeknotes-01.jpg" class="img-fluid rounded float-left" style="width:100%;" alt="Geek Notes" />
-        <p>
-            Here's where I share some of my notes with everyone else. I hope someone finds my notes useful.
-        </p>
+        <img src="/img/geeknotes-01.jpg" class="img-fluid rounded" style="width:100%;" alt="Geek Notes" />
+        <div style="padding-top: 10px;">
+            Here's where I share some of my notes with everyone else. I hope someone finds my notes and projects useful.
+            <a class="btn btn-sm btn-success" target="_blank" href="/feed.xml"><i class="fa fa-feed"></i> Get the ATOM Feed</a>
+        </div>
         <hr />
     </div>
 </div>
@@ -35,7 +36,7 @@ area: "blog"
                             <span class="badge badge-info">{{ tag }}</span>
                             {% endfor %}
                         </div>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </div>
