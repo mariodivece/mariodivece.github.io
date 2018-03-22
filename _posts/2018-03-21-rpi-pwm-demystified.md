@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Raspberry Pi's PWM Demystified"
+title: "Raspberry Pi's PWM Demystified (WIP)"
 date: 2018-03-21
 nocomments: false
 area: "blog"
 description: In this article, I cover the practical use of a 2-variable equation solver to find optimal parameters for the Raspberry Pi's native PWM driver which depends on on a clock divider and a range register. This has been the source of countless discussions in online forums and this article aims to clear some of the confusion caused by both, lack of information and the complexity of the problem.
 tags: Embedded Electronics, Raspberry Pi, PWM, Math
 ---
+
+*This post is still work in progress*
 
 # Raspberry Pi's PWM Demystified
 
