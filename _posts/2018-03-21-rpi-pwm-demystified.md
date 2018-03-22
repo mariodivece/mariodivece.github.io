@@ -2,8 +2,8 @@
 
 Hello!
 
-| Frequency (Hz) | Period (uSecs) | Max Duty Cycle (Percent) | Max Pulse Width (uSecs) | PWM Divider | PWM Range |
-| :--- | ---: | ---: | ---: | ---: | ---: |
+| Frequency (Hz) | Period (microseconds) | Max Duty Cycle (percent) | Max Pulse Width (microseconds) | PWM Divider | PWM Range |
+| ---: | ---: | ---: | ---: | ---: | ---: |
 | 1 | 1,000,000.00 | 21.33% | 213,333.33 | `4000` | `4800` |
 | 4 | 218,400.00 | 100.00% | 218,400.00 | `4095` | `1024` |
 | 5 | 200,000.00 | 100.00% | 200,000.00 | `3750` | `1024` |
